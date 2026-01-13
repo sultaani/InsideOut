@@ -1,5 +1,4 @@
 import { Link, useLocation } from 'react-router-dom';
-import logo from 'figma:asset/3280a09f3bddbf25aa1cdc1d13cee2a935c99a54.png';
 
 export default function Navigation() {
   const location = useLocation();
@@ -13,7 +12,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="InsideOut Brand.ng" className="h-12" />
+            <span className="text-2xl font-bold text-[var(--deep-purple)]">InsideOut Brand.ng</span>
           </Link>
           
           <div className="hidden md:flex items-center gap-8">
